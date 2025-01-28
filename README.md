@@ -1,4 +1,4 @@
-## LinkedIn Scraper 2022
+## LinkedIn Scraper
 
 This is the new update concerning the data scraping from [LinkedIn](https://linkedin.com).
 
@@ -15,15 +15,8 @@ To contribute, you know the story,
 - [Fork](https://github.com/yokwejuste/linkedin-scraper/fork)
 - Clone
     - ```
-        git clone https://github.com/<your github username>/linkedin-scraper.git
+        git clone https://github.com/zoecyber001/linkedin-scraper.git
         ```
-- Make commits and PRs
-    - ```
-        git add .
-        git commit -m "message"
-        git push
-        ```
-
 ### System Setup
 
 - Download dependencies
@@ -31,6 +24,13 @@ To contribute, you know the story,
         pip install -r requrements.txt
 
     ```
+
+    after that run
+  ```bash
+      pip install webdriver-manager --upgrade
+
+  ```
+  
 - Create a `.env` file with the following variables:
     ```bash
         LINKEDIN_USERNAME=**************
